@@ -1,2 +1,2 @@
-# ferramentas--estudos
+# estudo-diario
 Estudo
