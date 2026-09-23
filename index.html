@@ -1,0 +1,11 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#6d4aff"><title>Ferramentas Fácil IA V5</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="brand"><div class="logo">✦</div><div><b>Ferramentas Fácil</b><small>IA V5 • Python local</small></div></div><span id="status" class="pill">● conectando</span></header>
+<main>
+<section class="hero"><span class="tag">🧠 IA LOCAL • SEM TOKEN</span><h1>Seu assistente de estudos.</h1><p>Resumos, explicações, planos e quizzes rodando no próprio servidor Python.</p></section>
+<section class="card input-card"><label>Assunto ou conteúdo</label><textarea id="text" placeholder="Digite, por exemplo: fotossíntese, equação do 2º grau, Revolução Francesa..."></textarea><div class="chips"><button data-fill="Matemática: equação do 2º grau">Equação</button><button data-fill="Biologia: membrana plasmática">Biologia</button><button data-fill="História: Revolução Francesa">História</button></div></section>
+<section class="grid"><button class="tool" data-action="summary"><span>📚</span><b>Resumo</b><small>Ideias principais</small></button><button class="tool" data-action="explain"><span>💡</span><b>Explicar</b><small>Passo a passo</small></button><button class="tool" data-action="study"><span>🎯</span><b>Plano</b><small>Estudo adaptado</small></button><button class="tool" data-action="quiz"><span>📝</span><b>Quiz</b><small>Questões de treino</small></button></section>
+<section class="card result"><div class="result-head"><h2 id="resultTitle">Resultado</h2><button id="copy">Copiar</button></div><pre id="result">Escolha uma ferramenta acima para começar.</pre><div id="quizBox"></div></section>
+<section class="card calc"><h2>🧮 Calculadora</h2><div class="calc-row"><input id="calc" inputmode="decimal" placeholder="Ex.: (25*4)+10"><button id="calcBtn">=</button></div><div id="calcResult" class="calc-result">Pronta.</div></section>
+</main>
+<nav><a class="active">⌂<span>Início</span></a><a href="#ia">✦<span>IA</span></a><a href="#foco">◷<span>Foco</span></a><a href="#quiz">✓<span>Quiz</span></a><a href="#progresso">★<span>Progresso</span></a></nav>
+<script src="app.js"></script></body></html>
